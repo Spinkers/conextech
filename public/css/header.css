@@ -1,0 +1,32 @@
+#particles-js{
+  background:black;
+  height:400px;
+  background-image: url("../img/background4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#caixa{
+  background: #000;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;  
+  border:rgb(42, 81, 212) 2px double;
+}
+.textoCaixa {
+  color: #01fffd;
+  text-shadow: 0 0 5px rgb(0, 102, 255), 0 0 9px #0000FF;
+  font-size: 35pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#login input[type="text"], #login input[type="password"]{
+  padding:7px;
+  margin-bottom:10px;
+  border:1px #ccc solid;
+}
